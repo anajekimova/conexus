@@ -40,10 +40,8 @@ namespace CSharpTask
 
         public static bool CheckNumber(int x)
         {
-            if (x - 1 == 0)
-                return true;
-            else
-                return false;
+            var result = x & (x - 1);
+            return result == 0;
         }
     }
 }

@@ -48,7 +48,7 @@ namespace HomeTaskTest
         {
             var expect = false;
 
-            var x = 4;
+            var x = 5;
 
             var result = HomeTask.CheckNumber(x);
 
